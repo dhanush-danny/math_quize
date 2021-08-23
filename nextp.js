@@ -20,10 +20,21 @@ function send() {
         replace_word = "X";
 
         question_tag = '<h4 id="word_display">Q : ' + question_word + replace_word + question_word_2 + '</h4><br>';
-        input_tag = 'Answer: <input id="user_ans_input" type="text" placeholder="enter your answer">';
+        input_tag = 'A : <input id="user_ans_input" type="text" placeholder="enter your answer">';
         button_tag = '<br><br> <button class="btn btn-info" onclick="check()"> Check</button>';
         row = question_tag + input_tag + button_tag;
         document.getElementById("output").innerHTML = row;
         document.getElementById("word").value = "";
+    }
+}
+
+answer = question_word * question_word_2
+question = document.getElementById("user_ans_input").value;
+
+function check() {
+    if (question == answer) {
+        window.alert("correct this is the answer" + answer);
+    } else {
+        window.alert("Wrong this is the answer" + answer);
     }
 }
