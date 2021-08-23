@@ -1,14 +1,5 @@
 
 
-	.login_div
-	{
-		background: white;
-		padding: 10px;
-		float: none;
-		border-radius: 15px;
-	}
-
-
 #player1_name , #player2_name
 {
 	display: inline-block;
@@ -34,17 +25,17 @@ text-align: left;
 
 #div_1{
 	width: 500px;
-	margin-left: 500px;
+	margin-left: 300px;
 }
 
 #div_2{
 	width: 500px;
-	margin-left: 500px;
+	margin-left: 300px;
 }
 #login_1{
-	margin-left: 500px;
+	margin-left:  100px;
 	width: 250px;
 }
 #h1_title{
-	margin-left: 500px;
+	margin-left:  100px;
 }
